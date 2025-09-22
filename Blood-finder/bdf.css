@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bdfMain{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 10px;
+    overflow: auto;
+}
+#searchButton {
+  margin-left: 20px;
+  background:rgba(36, 252, 3);
+  padding:10px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 2px solid #179903;
+  transition: all 0.4s linear;
+}
+#searchButton:hover{
+  transition: all 0.4s linear;
+  background: white;
+  color: rgb(36, 252, 3);
+}
+#searchContainer{
+  width:100%;
+  padding-left:20px;
+  padding-top:15px;
+  padding-right:20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+}
+#searchHeading{
+  font-size:30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+#searchHeading > span {
+  color:red;
+}
+#result{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 70px;
+}
+#resultHeading{
+    font-size:40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.donorCard{
+  background: rgb(36, 252, 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgb(66, 66, 66) 1.95px 1.95px 2.6px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.donorInfoSpan{
+  font-weight: 400;
+font-size: 17px;
+}
+.donorNameInfo{
+  font-size: 20px;
+}
+.donorName,.donorBloodGroup,.donorContact,.donorDistrict,.donorPincode,.donorLastDonated{
+color: rgb(255, 51, 0);
+}
+#donorContact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 5px;
+  background: blue;
+  padding: 8px 26px;
+  border-radius: 8px;
+  color: aliceblue;
+  font-weight: bold;
+}
+.donorCardInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#districtSelectContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#donorAtYourArea{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+#donorSameBloodGroup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
