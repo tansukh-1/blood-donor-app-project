@@ -90,4 +90,94 @@ img {
   color: #FF746C;
 }*/
 
+@media screen and (min-width:900px) {
+  #heading1 > h1{
+font-size: 40px;
+  }
+  #choose > a{
+    padding: 18px 33px;
+    font-size: 17px;
+    margin-top: 18px;
+  }
+  #choose > span {
+   font-size: 20px;
+}
+}
 
+@media screen and (min-width:1000px) {
+  #heading1 > h1{
+font-size: 50px;
+  }
+  #choose > a{
+    padding: 20px 35px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+   #choose > span {
+   font-size: 22px;
+}
+
+
+}
+
+@media screen and (min-width:1300px) {
+  #homeMain{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJpWkbkfNCYypydVO8gA8fd_eIKwbdWpd5w&s'), url('../public/Gemini_Generated_Image_5hdhgi5hdhgi5hdh\ \(1\).png');
+  background-position: bottom center, 50% 30%;
+  background-size: 300px 300px, 70% auto;
+}
+}
+
+@media screen and (min-width:1325px) {
+  #homeMain{
+    background-position: bottom center, 50% 28%;
+  }
+}
+
+@media screen and (min-width:1415px) {
+  #homeMain{
+    background-position: bottom center, 50% 26%;
+  }
+}
+
+@media screen and (min-width:1500px) {
+  #homeMain{
+    background-position: bottom center, 50% 24%;
+  }
+}
+
+@media screen and (min-width:1560px) {
+  #homeMain{
+    background-position: bottom center, 50% 22%;
+  }
+}
+
+@media screen and (min-width:1620px) {
+  #homeMain{
+    background-position: bottom center, 50% 20%;
+  }
+}
+
+@media screen and (min-width:1675px) {
+  #homeMain{
+    background-position: bottom center, 50% 18%;
+  }
+}
+
+@media screen and (min-width:1725px) {
+  #homeMain{
+    background-position: bottom center, 50% 16%;
+  }
+}
+
+@media screen and (min-width:1760px) {
+  #homeMain{
+    background-position: bottom center, 50% 14%;
+  }
+}
+
+@media screen and (min-width:1814px) {
+  #homeMain{
+    background-position: bottom center, 50% 10%;
+  }
+}
