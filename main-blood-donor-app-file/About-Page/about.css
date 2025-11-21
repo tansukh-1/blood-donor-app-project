@@ -1,16 +1,60 @@
 #aboutMain{
-     padding-top:30px;
+  padding-top: 100px;  
   flex-grow: 1;
   display:flex;
-  justify-content:center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
  overflow: auto;
  flex-direction: column;
+ padding-bottom: 60px;
 }
 
 .inputText{
-    font-weight: 800;
+    font-size: 17px;
+    cursor: default;
+}
+
+.skill-icon{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+#infoHeading {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.info-item {
+    margin-bottom: 20px;
+    font-size: 24px;
+    cursor: default;
+}
+
+.skill-div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    box-shadow: inset 0 0 2.5px #ccc;
+    padding: 10px;
+}
+
+.skill-div:hover {
+    box-shadow: inset 0 0 5px #999;
+}
+
+#skillsSection {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#skillsHeading {
     font-size: 30px;
+    margin-top: 60px;
 }
